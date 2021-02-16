@@ -1,0 +1,20 @@
+{
+  "require": {
+    "myclabs/deep-copy": "^1.8",
+    "typisttech/imposter-plugin": "^0.3.0"
+  },
+  "extra": {
+    "imposter": {
+      "namespace": "WP_Shopify\\Vendor"
+    }
+  },
+  "require-dev": {},
+  "config": {
+    "optimize-autoloader": true
+  },
+  "autoload": {
+    "classmap": [
+      "classes/"
+    ]
+  }
+}

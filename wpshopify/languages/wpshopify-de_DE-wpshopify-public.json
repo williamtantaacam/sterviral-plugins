@@ -1,0 +1,126 @@
+{
+  "translation-revision-date": "2020-05-29 14:04-0500",
+  "generator": "WP-CLI/2.4.0",
+  "source": "dist/CartContents-public.084c6a.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "messages",
+        "lang": "de_DE",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "Your cart is empty": ["Ihr Warenkorb ist leer"],
+      "Out of stock": ["Ausverkauft"],
+      "Sale!": ["Sale!"],
+      "Remove": ["Entfernen"],
+      "Was:": ["Zuvor:"],
+      "Subtotal:": ["Zwischensumme:"],
+      "Checkout notes": ["Hinweise zur Kasse"],
+      "Notes:": ["Notizen:"],
+      "Close Cart": ["Close Cart"],
+      "Tags": ["Schlagwörter"],
+      "Checkout": ["Kasse"],
+      "Invalid client instance found": ["Ungültige Clientinstanz gefunden"],
+      "Error: Missing checkout instance": ["Fehler: Fehlende Auscheckinstanz"],
+      "Error: Missing client instance": ["Fehler: Fehlende Clientinstanz"],
+      "Oops, it looks like you still need to set your Shopify API credentials. Please add these within the plugin settings and try again.": [
+        "Oops, es sieht so aus, als ob Sie Ihre Shopify-API-Anmeldeinformationen noch festlegen müssen. Bitte fügen Sie diese in den Plugin-Einstellungen hinzu und versuchen Sie es erneut."
+      ],
+      "Missing credentials Client object": [
+        "Fehlende Anmeldeinformationen Client-Objekt"
+      ],
+      "Uh oh, it looks like your Shopify credentials are incorrect. Please double check your domain and storefront access token within the plugin settings and try again.": [
+        "Äh oh, es sieht so aus, als ob Ihre Shopify-Anmeldeinformationen falsch sind. Überprüfen Sie bitte Ihre Domain- und Storefront-Zugriffstoken innerhalb der Plugin-Einstellungen und versuchen Sie es erneut."
+      ],
+      "Uh oh, it appears that invalid product ids were used. Please clear your browser cache and reload the page.": [
+        "Uh oh, es scheint, dass ungültige Produkt-IDs verwendet wurden. Bitte löschen Sie Ihren Browser-Cache und laden Sie die Seite neu."
+      ],
+      "Uh oh, it looks like an error occurred. Please contact the plugin developer with this message to fix.": [
+        "Äh oh, es sieht so aus, als ob ein Fehler aufgetreten ist. Bitte kontaktieren Sie den Plugin-Entwickler mit dieser Nachricht zu beheben."
+      ],
+      "Uh oh, it looks like a network error occurred. Please ensure that your site is using a valid HTTPS certificate on all pages.": [
+        "Äh oh, es sieht so aus, als ob ein Netzwerkfehler aufgetreten ist. Stellen Sie sicher, dass Ihre Website auf allen Seiten ein gültiges HTTPS-Zertifikat verwendet."
+      ],
+      "Uh oh, it looks like an invalid lineitems data type was found. Please clear your cache and try again.": [
+        "Uh oh, es sieht so aus, als ob ein ungültiger Datentyp für Lineitems gefunden wurde. Löschen Sie den Cache, und versuchen Sie es erneut."
+      ],
+      "Hmm, it looks like you still need to connect your Shopify store or the credentials are wrong / missing. Please double check the \"connect\" tab within the plugin settings.": [
+        "Hmm, es sieht so aus, als ob Sie noch Ihren Shopify-Shop verbinden müssen oder die Anmeldeinformationen falsch / fehlen. Bitte überprüfen Sie die Registerkarte \"Verbinden\" in den Plugin-Einstellungen."
+      ],
+      "Hmm, it looks like you may be trying to access a field on the Storefront API that does not exist.": [
+        "Hmm, es sieht so aus, als ob Sie versuchen, auf ein Feld in der Storefront-API zuzugreifen, das nicht vorhanden ist."
+      ],
+      "Uh oh, we were unable to locate the product you attempted to update. Please clear your browser cache and try again.": [
+        "Uh oh, wir konnten das Produkt, das Sie aktualisieren wollten, nicht finden. Löschen Sie den Browsercache, und versuchen Sie es erneut."
+      ],
+      "Unable to connect to store. This could be because your network is down or your browser is blocking cookies. A possible <a href=\"https://wpshop.io/docs\" target=\"_blank\">solution can be found here</a>. Try disabling any browser extensions and clearing your browser cache.": [
+        "Es konnte keine Verbindung zum Speicher hergestellt werden. Dies kann daran liegen, dass Ihr Netzwerk ausfällt oder Ihr Browser Cookies blockiert. Eine mögliche <a href=\"https://wpshop.io/docs\" target=\"_blank\">Lösung finden Sie hier</a>. Deaktivieren Sie alle Browsererweiterungen und löschen Sie Ihren Browsercache."
+      ],
+      "Unable to flush the store cache. Please clear your browser cache and reload the page.": [
+        "Der Speichercache kann nicht gelöscht werden. Bitte löschen Sie Ihren Browser-Cache und laden Sie die Seite neu."
+      ],
+      "Unable to create new session after checking out. Please clear your browser cache and reload the page.": [
+        "Nach dem Auschecken kann keine neue Sitzung erstellt werden. Bitte löschen Sie Ihren Browser-Cache und laden Sie die Seite neu."
+      ],
+      "No existing payload found": ["Keine vorhandene Nutzlast gefunden"],
+      "Uh oh, no query parameters were passed for fetchNewItems. Please clear your browser cache and try again.": [
+        "Uh oh, es wurden keine Abfrageparameter für fetchNewItems übergeben. Löschen Sie den Browsercache, und versuchen Sie es erneut."
+      ],
+      "Uh oh, it looks your query params are invalid. Please clear your browser cache and reload the page.": [
+        "Äh oh, es sieht so aus, als ob Ihre Abfrageparams ungültig sind. Bitte löschen Sie Ihren Browser-Cache und laden Sie die Seite neu."
+      ],
+      "You still need to connect your Shopify store or the credentials are missing. Double check the \"connect\" tab within the plugin settings.": [
+        "Sie müssen ihren Shopify-Shop noch anschließen oder die Anmeldeinformationen fehlen. Überprüfen Sie die Registerkarte \"verbinden\" in den Plugin-Einstellungen."
+      ],
+      "No product ids found": ["Keine Produkt-IDs gefunden"],
+      "View product": ["Produkt anzeigen"],
+      "Add to cart": ["In den Warenkorb"],
+      "Shopping cart": ["Warenkorb"],
+      "Begin checkout": ["Zur Kasse gehen"],
+      "No line items exist": ["Es sind keine Einzelposten vorhanden"],
+      "No checkout instance available": ["Keine Kasseninstanz verfügbar"],
+      "No store checkout or client instances were found.": [
+        "Es wurden keine Speicherauscheck- oder Clientinstanzen gefunden."
+      ],
+      "No products left to show": ["Keine Produkte mehr zu zeigen"],
+      "No items left": ["Keine Artikel mehr"],
+      "Uh oh, it looks like an error occured. Please clear your browser cache and try again.": [
+        "Äh oh, es sieht so aus, als ob ein Fehler aufgetreten ist. Löschen Sie den Browsercache, und versuchen Sie es erneut."
+      ],
+      "Load more": ["Mehr laden"],
+      "Page size:": ["Seitengröße:"],
+      "Choose a size": ["Wählen Sie eine Größe"],
+      "Added!": ["Hinzugefügt!"],
+      "Only %s left!": ["Nur %s übrig!"],
+      "Please select a variation": ["Bitte wählen Sie eine Variante"],
+      "WP Shopify Placeholder Image": ["WP Shopify Platzhalter Bild"],
+      "Price:": ["Preis:"],
+      "Was: ": ["War: "],
+      "Search": ["Suche"],
+      "Search the store": ["Durchsuchen Des Shops"],
+      "Loading ...": ["Wird geladen …"],
+      "Loading %s ...": ["Wird geladen %s …"],
+      "No %s found": ["Keine %s gefunden"],
+      "Filter by": ["Filtern nach"],
+      "%s. Occurred when fetching available filter options. Please clear your browser cache and reload the page. ": [
+        "%s. Aufgetreten beim Abrufen verfügbarer Filteroptionen. Bitte löschen Sie Ihren Browser-Cache und laden Sie die Seite neu. "
+      ],
+      "Vendors": ["Verkäufer"],
+      "Types": ["Typen"],
+      "Clear all": ["Alles löschen"],
+      "Available for sale": ["Zur Verfügung"],
+      "Sort by:": ["Sortieren nach:"],
+      "Choose an option": ["Wählen Sie eine Option"],
+      "Price (Low to high)": ["Preis (Niedrig bis hoch)"],
+      "Price (High to low)": ["Preis (Hoch bis niedrig)"],
+      "New Arrival": ["Neuankömmling"],
+      "Best Selling": ["Meistverkauft"],
+      "Title (A-Z)": ["Titel (A-Z)"],
+      "Title (Z-A)": ["Titel (Z-A)"],
+      "WP Shopify warning: No component data found! Please reconnect your store.": [
+        "WP Shopify-Warnung: Keine Komponentendaten gefunden! Bitte verbinden Sie Ihren Shop erneut."
+      ]
+    }
+  }
+}

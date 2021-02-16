@@ -1,0 +1,197 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "37f633bbacaa2f6a08e60e748c06712b",
+    "packages": [
+        {
+            "name": "myclabs/deep-copy",
+            "version": "1.10.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/myclabs/DeepCopy.git",
+                "reference": "969b211f9a51aa1f6c01d1d2aef56d3bd91598e5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/969b211f9a51aa1f6c01d1d2aef56d3bd91598e5",
+                "reference": "969b211f9a51aa1f6c01d1d2aef56d3bd91598e5",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1 || ^8.0"
+            },
+            "replace": {
+                "myclabs/deep-copy": "self.version"
+            },
+            "require-dev": {
+                "doctrine/collections": "^1.0",
+                "doctrine/common": "^2.6",
+                "phpunit/phpunit": "^7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DeepCopy\\": "src/DeepCopy/"
+                },
+                "files": [
+                    "src/DeepCopy/deep_copy.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Create deep copies (clones) of your objects",
+            "keywords": [
+                "clone",
+                "copy",
+                "duplicate",
+                "object",
+                "object graph"
+            ],
+            "time": "2020-06-29T13:22:24+00:00"
+        },
+        {
+            "name": "typisttech/imposter",
+            "version": "0.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TypistTech/imposter.git",
+                "reference": "ab4fad90cfd7dc01fc9d952a76d18a6d53d519af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TypistTech/imposter/zipball/ab4fad90cfd7dc01fc9d952a76d18a6d53d519af",
+                "reference": "ab4fad90cfd7dc01fc9d952a76d18a6d53d519af",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "codeception/base": "^2.3",
+                "mockery/mockery": "^1.1",
+                "squizlabs/php_codesniffer": "^3.2"
+            },
+            "suggest": {
+                "typisttech/imposter-plugin": "Composer plugin to integrate composer and imposter"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TypistTech\\Imposter\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tang Rufus",
+                    "email": "tangrufus@gmail.com",
+                    "homepage": "https://typist.tech",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Typist Tech",
+                    "email": "imposter@typist.tech",
+                    "homepage": "https://typist.tech"
+                }
+            ],
+            "description": "Wrapping all composer vendor packages inside your own namespace. Intended for WordPress plugins",
+            "homepage": "https://typist.tech/projects/imposter",
+            "keywords": [
+                "composer",
+                "dependency",
+                "monkey-patching",
+                "namespace",
+                "wordpress"
+            ],
+            "time": "2018-09-24T23:25:48+00:00"
+        },
+        {
+            "name": "typisttech/imposter-plugin",
+            "version": "0.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TypistTech/imposter-plugin.git",
+                "reference": "ccca62af8b04623a6ae7077c21e8ced4c09558ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TypistTech/imposter-plugin/zipball/ccca62af8b04623a6ae7077c21e8ced4c09558ae",
+                "reference": "ccca62af8b04623a6ae7077c21e8ced4c09558ae",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.1",
+                "php": "^7.1",
+                "typisttech/imposter": "^0.3.1"
+            },
+            "require-dev": {
+                "codeception/base": "^2.3",
+                "composer/composer": "^1.5",
+                "squizlabs/php_codesniffer": "^3.2",
+                "typisttech/codeception-composer-project-module": "^0.1.1"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.3.x-dev"
+                },
+                "class": "TypistTech\\Imposter\\Plugin\\ImposterPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "TypistTech\\Imposter\\Plugin\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tang Rufus",
+                    "email": "tangrufus@gmail.com",
+                    "homepage": "https://www.typist.tech",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Typist Tech",
+                    "email": "imposter-plugin@typist.tech",
+                    "homepage": "https://www.typist.tech"
+                }
+            ],
+            "description": "Composer plugin that wraps all composer vendor packages inside your own namespace. Intended for WordPress plugins",
+            "homepage": "https://www.typist.tech/projects/imposter-plugin",
+            "keywords": [
+                "composer",
+                "composer-plugin",
+                "dependency",
+                "monkey-patching",
+                "namespace",
+                "wordpress"
+            ],
+            "time": "2018-09-25T02:15:58+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
